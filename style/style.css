@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+li{
+    list-style: none;
+}
+/*Nav bar*/
+header{
+    display: flex;
+    justify-content: space-between ;
+    margin: 10px 30px;
+    background-color: white;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center ;
+
+}
+ul{
+    display: flex;
+    gap: 90px;
+   
+}
+.link:hover{
+    color: #B88E2F;
+    text-decoration: underline;
+}
+ul li{
+    position: relative;
+}
+.link:hover::after{
+    content: "";
+    width: 45px;
+    height: 2px;
+    background-color: #B88E2F;
+    position: absolute;
+    bottom: -1px;
+    right: 4px;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.chair-info{
+    background-image:url(/images/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+.new-collection{
+    background-color: #FFF3E3;
+    padding : 50px 30px;
+    position: absolute;
+    top: 150.3px;
+    left: 700px;
+    /* width: 50px;
+    height: 80px; */
+}
+.buy{
+    background-color: #B88E2F;
+    padding: 15px 52px;
+    color: white;
+    transition: all;
+    transition-duration: 400ms;
+}
+.buy:hover{
+    padding: 20px 57px;
+    transition: all;
+    transition-duration: 400ms;
+}
+.buy:active{
+    padding: 15px 52px;
+}
+.lorem{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+.discover{
+    color: #B88E2F;
+}
+.browse{
+    text-align: center;
+    margin: 10px 20px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    font-weight: 500;
+}
+.section-img{
+    height: 500px;
+    border-radius: 10px;
+}
+.product{
+    text-align: center;
+    margin: 10px;
+}
+.syltherine{
+    text-align: left;
+    background-color:#F4F5F7;
+    position: relative;
+    
+}
+.price{
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    margin: 5px 10px;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.product-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px;
+}
+.product-img{
+    height: 300px;
+}
+.info{
+    font-size: small;
+    margin: 5px 10px;
+}
+.product-name{
+    margin: 10px 10px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+.overlay:hover{
+    opacity: 1;
+    transition: all;
+    transition-duration: 500ms;
+}
+.addtocart{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+.addtocart:hover{
+    color: #B88E2F;
+}
+.nav-links{
+    display: flex;
+    gap: 10px;
+}
+.share{
+    display: flex;
+}
+.compare{
+    display: flex;
+}
+.like{
+    display: flex;
+}
+.discounts{
+    position: absolute;
+    top: 15px;
+    left: 230px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#E97171;
+
+}
+.new-product{
+    position: absolute;
+    top: 15px;
+    left: 230px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#2EC1AC;
+    ;
+}
+.seemore{
+    text-align: center;
+    border: solid 1px;
+    border-color: #B88E2F;
+    width: 245px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: 500;
+    color: #B88E2F;
+}
+.seemore:hover{
+    width: 260px;
+    height: 68px;
+    transition: all;
+    transition-duration: 200ms;
+}
+.furniture{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gallery{
+    display: flex;
+    gap: 15px;
+}
+.gallery1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.gallery2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+.gallery-section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.gallery5{
+    display: flex;
+    
+    align-items: start;
+    gap: 15px;
+}
